@@ -130,28 +130,56 @@ display: inline-block;
   border: 0.5px
   float:left;
  margin-left: 10%;
- margin-right: 10%;
- margin-top:0;
+ margin-right: 5%;
+ margin-top:10%;
  margin-bottom:5%;
 
 }
 
 .chickenBurger{
   float:left;
+  border-right: 5%;
+  padding-bottom: 10%
+  padding-left: 9%;
   width:33%;
 
 }
 
 .beefBurger{
+  padding-left: 8%;
+  border-right: 5%;
+  padding-bottom: 10%
   float:left;
   width:33%;
 }
 
 .chickenPizza{
+  padding-left: 8%;
   float:left;
   width:33%;
+  padding-bottom: 10%
+  padding-right: 9%;
 }
-
+.right-arrow {
+	display: inline-block;
+	position: relative;
+	background: orangered;
+	padding: 15px;
+}
+.right-arrow:after {
+	content: '';
+	display: block;
+	position: absolute;
+	left: 100%;
+	top: 50%;
+	margin-top: -10px;
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-left: 10px solid orangered;
+}
 .row6{
   background-color:white;
   height: 250px;
@@ -173,8 +201,24 @@ display: inline-block;
   height: 250px;
   text-align: center;
   text-emphasis-position: below;
+}
+.form input{
+  margin-right: -4px;
+  border: none;
+  background-color: white;
+  border-top-left-radius:5px;
+  border-bottom-left-radius: 5px;
 
 }
+.button{
+
+  background-color: orangered;
+  colour: white;
+  padding-left: 10px;
+  border: 1px solid orangered;
+
+}
+
 .footer{
   margin: auto;
   width: 100%;
