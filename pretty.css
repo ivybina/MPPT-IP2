@@ -24,6 +24,7 @@ h4{
   width:100%
 }
 .box{
+display: inline-block;
   background-color:silver;
   float: left;
    margin-left: 0;
@@ -78,8 +79,9 @@ float: left;
 }
 .text2{
   width: 50%;
-  float:left;
+  float:right;
   background-color: white;
+  text-align: right;
 }
 .row5{
   background-image: url(assets/backgrounds/foodsBg.jpg);
