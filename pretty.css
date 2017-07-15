@@ -1,49 +1,70 @@
 .container{
 width:100%;
-height: 100%;
 margin: 0;
 }
 .header{
 width:100%;
 height:auto;
+background-image: url(assets/backgrounds/landing.jpg);
 }
 .box{
   background-color:silver;
    float:left;
    margin-left: 0;
    width:25%;
-   height:200px;
+
+ }
+ .box2{
+   background-color: orangered;
+   margin-left: 0;
+   width:25%;
  }
 .breakfast {
    float:left;
-   width:25%;
-   height:200px;
 
 }
 .lunch{
   float:left;
-  width:25%;
-height:200px;
 }
 .dinner{
   float:left;
-  margin-left: 0;
-  width:25%;
-height:200px;
-}
-.row3{
+margin-right: 0;
 
 }
-.row4{
+.food{
+  width: 50%
+  float: left;
+ background-color: white;
+}
+.text1{
+  width: 50%;
+  float:right;
+  background-color: white;
+}
+.drinks{
+  width: 50%;
+  float:right;
+}
+.text2{
+  width: 50%;
+  float:left;
+  background-color: white;
+}
+.row5{
+  background-image: url(assets/backgrounds/foodsBg.jpg);
+  width:100%
 
 }
 .fastfoodmenu{
+  width:80% auto;
   float:center;
-  margin: 30px;
+  padding:30px;
+
 }
 .chickenBurger{
   float:left;
   width:33%;
+  height: 250px;
 }
 
 .beefBurger{
@@ -57,11 +78,17 @@ height:200px;
 }
 
 .row6{
-
+  background-color:white;
+  height: 250px;
+  width: 100%
 }
 .row7{
+  width:100%;
+  background-image: url(assets/backgrounds/subscribe.jpg);
 
 }
 .footer{
-background-color:orange;
+  height:200px;
+ background-color:orangered;
+ float:center;
 }
