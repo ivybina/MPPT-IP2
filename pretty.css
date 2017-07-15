@@ -24,11 +24,11 @@ h4{
   width:100%
 }
 .box{
-display: inline-block;
+
   background-color:silver;
   float: left;
    margin-left: 0;
-   width:25%;
+   width:20%;
 
 
  }
@@ -36,22 +36,22 @@ display: inline-block;
  .box2{
    background-color: orangered;
    margin-left: 0;
-   width:25%;
+   width:20%;
  }
 .breakfast {
   display: inline-block;
-float: left;
+float: right;
 
 }
 .lunch{
   display: inline-block;
-float: left;
+float: right;
 
 }
 
 .dinner{
   display: inline-block;
-  float: left;
+  float: right;
  margin-right: 0;
 
 }
@@ -59,16 +59,23 @@ float: left;
   width: 50%
   float: left;
  background-color: white;
- border-color: inherit;
  padding-left: 10px;
 }
 .food1{
-  margin-left: 0%
+
+  margin-top: 5%;
+  margin-left: 10%
+
 }
 .food2{
-  margin-left: 0%
+    display: inline-block;
+  margin-left: 10%;
+  margin-bottom: 5%
+  float:left;
 }
 .text1{
+  margin-top:0%;
+  display: inline-block;
   width: 50%;
   float:right;
   background-color: white;
@@ -76,6 +83,7 @@ float: left;
 .drinks{
   width: 50%;
   float:right;
+  margin-bottom: 5%
 }
 .text2{
   width: 50%;
