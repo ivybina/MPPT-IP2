@@ -1,37 +1,43 @@
 .container{
-width:100%;
-margin: 0;
-display: grid;
-}
-.header{
-width:100%;
-height:auto;
+  width: 100%;
+  margin:0;
+  margin-right: 0;
+  display: grid;
 }
 .landingpage{
-background-image: url(assets/backgrounds/landing.jpg);
+   background-image: url(assets/backgrounds/landing.jpg);
+   color: white;
+}
+.row2{
+  width:100%
 }
 .box{
   background-color:silver;
-   float:left;
+  float: left;
    margin-left: 0;
    width:25%;
 
+
  }
+
  .box2{
+
    background-color: orangered;
    margin-left: 0;
    width:25%;
  }
 .breakfast {
-   float:left;
+ float: left;
 
 }
 .lunch{
   float:left;
+
 }
+
 .dinner{
   float:left;
-margin-right: 0;
+ margin-right: 0;
 
 }
 .food{
@@ -59,7 +65,8 @@ margin-right: 0;
 
 }
 .fastfoodmenu{
-  width:60% auto;
+
+  width:60%;
   float:center;
   padding:50px;
 
@@ -85,13 +92,22 @@ margin-right: 0;
   height: 250px;
   width: 100%
 }
+.box3{
+  margin-top:30px;
+  margin-bottom: 30px;
+  margin-right: 40px;
+  margin-left: 40px;
+  border:1px;
+}
 .row7{
   width:100%;
   background-image: url(assets/backgrounds/subscribe.jpg);
+  color: white;
+  height: 250px;
 
 }
 .footer{
-
+height:280px;
  background-color:orangered;
  float:center;
 }
