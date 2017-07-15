@@ -1,4 +1,5 @@
 .container{
+text-decoration-style: solid;
   width: 100%;
   margin:0;
   margin-right: 0;
@@ -8,7 +9,6 @@ h1{
   text-align: center;
 }
 h3{
-  text-align: center;
 
 }
 h4{
@@ -33,21 +33,23 @@ h4{
  }
 
  .box2{
-
    background-color: orangered;
    margin-left: 0;
    width:25%;
  }
 .breakfast {
+  display: inline-block;
 float: left;
 
 }
 .lunch{
+  display: inline-block;
 float: left;
 
 }
 
 .dinner{
+  display: inline-block;
   float: left;
  margin-right: 0;
 
@@ -56,8 +58,15 @@ float: left;
   width: 50%
   float: left;
  background-color: white;
+ border-color: inherit;
+ padding-left: 10px;
 }
-
+.food1{
+  margin-left: 0%
+}
+.food2{
+  margin-left: 0%
+}
 .text1{
   width: 50%;
   float:right;
@@ -75,19 +84,52 @@ float: left;
 .row5{
   background-image: url(assets/backgrounds/foodsBg.jpg);
   width:100%
+ height:20%;
+}
+.table1{
+  width:80%;
+  border-color: darkgrey;
+
+  background-color: grey;
+  border: 0.5px
+  float:left;
+margin-left: 10%;
+margin-right: 10%;
+margin-top: 5%;
+margin-bottom:5%;}
+.Fastfood{
+margin-left: 5%
+display: inline-block;
 
 }
-.fastfoodmenu{
-
-  width:60%;
-  float:center;
-  padding:50px;
+.Drinks{
+display: inline-block;
 
 }
+.Chicken{
+display: inline-block;
+}
+.Rice{
+display: inline-block;
+}
+
+.table2{
+
+  width:80%;
+  background-color: white;
+  border: 0.5px
+  float:left;
+ margin-left: 10%;
+ margin-right: 10%;
+ margin-top:0;
+ margin-bottom:5%;
+
+}
+
 .chickenBurger{
   float:left;
   width:33%;
-  height: 250px;
+
 }
 
 .beefBurger{
@@ -110,17 +152,27 @@ float: left;
   margin-bottom: 30px;
   margin-right: 40px;
   margin-left: 40px;
-  border:1px;
+  border-spacing: inherit:auto;
+  border-color: black;
+  text-align: center;
 }
 .row7{
   width:100%;
   background-image: url(assets/backgrounds/subscribe.jpg);
   color: white;
   height: 250px;
+  text-align: center;
+  text-emphasis-position: below;
 
 }
 .footer{
+  margin: auto;
+  width: 100%;
  height:280px;
  background-color:orangered;
  float:center;
+ text-emphasis-position: below;
 color: white;}
+.footer img{
+  position: center;
+}
