@@ -4,9 +4,21 @@
   margin-right: 0;
   display: grid;
 }
-.landingpage{
-   background-image: url(assets/backgrounds/landing.jpg);
+h1{
+  text-align: center;
+}
+h3{
+  text-align: center;
+
+}
+h4{
+  text-align: center;
+}
+.header{
+   background: url(assets/backgrounds/landing.jpg);
    color: white;
+
+
 }
 .row2{
   width:100%
@@ -27,16 +39,16 @@
    width:25%;
  }
 .breakfast {
- float: left;
+float: left;
 
 }
 .lunch{
-  float:left;
+float: left;
 
 }
 
 .dinner{
-  float:left;
+  float: left;
  margin-right: 0;
 
 }
@@ -45,6 +57,7 @@
   float: left;
  background-color: white;
 }
+
 .text1{
   width: 50%;
   float:right;
@@ -107,7 +120,7 @@
 
 }
 .footer{
-height:280px;
+ height:280px;
  background-color:orangered;
  float:center;
-}
+color: white;}
