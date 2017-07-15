@@ -41,11 +41,13 @@ h4{
 .breakfast {
   display: inline-block;
 float: right;
+color: white;
 
 }
 .lunch{
   display: inline-block;
 float: right;
+color:white;
 
 }
 
@@ -53,6 +55,8 @@ float: right;
   display: inline-block;
   float: right;
  margin-right: 0;
+ color: white;
+
 
 }
 .food{
@@ -61,21 +65,26 @@ float: right;
  background-color: white;
  padding-left: 10px;
 }
+.image{
+    width: 300px;
+    border: auto solid cyan;
+    padding: 25px;
+    margin: 25px;
+}
 .food1{
-
+width: 50%;
   margin-top: 5%;
-  margin-left: 10%
-
+  margin-left: 5%
 }
 .food2{
-    display: inline-block;
-  margin-left: 10%;
+width:50%;
+  margin-left:5%;
   margin-bottom: 5%
-  float:left;
+
 }
 .text1{
   margin-top:0%;
-  display: inline-block;
+  padding-top: 0%;
   width: 50%;
   float:right;
   background-color: white;
@@ -83,7 +92,8 @@ float: right;
 .drinks{
   width: 50%;
   float:right;
-  margin-bottom: 5%
+  margin-bottom: 5%;
+
 }
 .text2{
   width: 50%;
