@@ -1,10 +1,13 @@
 .container{
 width:100%;
 margin: 0;
+display: grid;
 }
 .header{
 width:100%;
 height:auto;
+}
+.landingpage{
 background-image: url(assets/backgrounds/landing.jpg);
 }
 .box{
@@ -56,9 +59,9 @@ margin-right: 0;
 
 }
 .fastfoodmenu{
-  width:80% auto;
+  width:60% auto;
   float:center;
-  padding:30px;
+  padding:50px;
 
 }
 .chickenBurger{
@@ -88,7 +91,7 @@ margin-right: 0;
 
 }
 .footer{
-  height:200px;
+
  background-color:orangered;
  float:center;
 }
