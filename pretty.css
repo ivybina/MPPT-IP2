@@ -47,6 +47,7 @@ color: white;
 .lunch{
   display: inline-block;
 float: right;
+background-color: transparent grey;
 color:white;
 
 }
@@ -173,7 +174,8 @@ display: inline-block;
 .right-arrow {
 	display: inline-block;
 	position: relative;
-	background: orangered;
+	background: white;
+  color:orangered;
 	padding: 15px;
 }
 .right-arrow:after {
@@ -182,7 +184,7 @@ display: inline-block;
 	position: absolute;
 	left: 100%;
 	top: 50%;
-	margin-top: -10px;
+	margin-top: -90px;
 	width: 0;
 	height: 0;
 	border-top: 10px solid transparent;
