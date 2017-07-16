@@ -23,20 +23,26 @@ text-align-last: center;
 .row2{
   width:100%
 }
-.box{
-
-  background-color:silver;
+.ccc{
   float: left;
    margin-left: 0;
    width:20%;
-
-
  }
+ .box1{
+   background-color: grey;
+   margin-left: 0;
+   width: 20%;
+   color:black;
+   height:3%;
+   }
 
  .box2{
+   display: inline block;
+   color:white;
    background-color: orangered;
    margin-left: 0;
-   width:20%;
+   width: 20%;
+   height:3%;
  }
 .breakfast {
   display: inline-block;
@@ -73,21 +79,20 @@ color:white;
     margin: 25px;
 }
 .food1{
-width: 50%;
+  width: 50%;
   margin-top: 5%;
   margin-left: 5%
 }
 .food2{
-width:50%;
+  width:50%;
   margin-left:5%;
   margin-bottom: 5%
 
 }
 .text1{
-  margin-top:0%;
-  padding-top: 0%;
   width: 50%;
   float:right;
+  text-align-last: left;
   background-color: white;
 }
 .drinks{
