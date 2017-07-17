@@ -5,6 +5,34 @@ text-decoration-style: solid;
   margin-right: 0;
   display: grid;
 }
+.icon {
+    display: inline-block;
+    cursor: pointer;
+    position:absolute;
+    float: left;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color:white;
+    margin:6px 0;
+    transition: 0.4s;
+
+
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}
 h1{
   text-align: center;
 }
@@ -17,7 +45,8 @@ h4{
 .header{
    background: url(assets/backgrounds/landing.jpg);
    color: white;
-text-align-last: center;
+  text-align; center;
+  text-align-last: center;
 
 }
 .row2{
@@ -125,7 +154,7 @@ color:white;
 }
 
 .Fastfood{
-  
+
 margin-left: 5%
 display: inline-block;
 width:262px;
