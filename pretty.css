@@ -57,12 +57,16 @@ h4{
    margin-left: 0;
    width:20%;
  }
+.box{
+height:210px;
+width: auto;
+padding-right: 0;
+}
  .box1{
    background-color: grey;
    margin-left: 0;
-   width: 20%;
    color:black;
-   height:3%;
+   height:105px;
    }
 
  .box2{
@@ -70,33 +74,36 @@ h4{
    color:white;
    background-color: orangered;
    margin-left: 0;
-   width: 20%;
-   height:3%;
+   height:105px;
  }
 .breakfast {
+  padding-left: 0;
   display: inline-block;
-float: right;
-color: white;
+  float: left;
+  color: white;
 
 }
 .lunch{
+  padding-left: 0;
+  padding-right: 0;
   display: inline-block;
-float: right;
-background-color: transparent grey;
-color:white;
+  float: left;
+  background-color: transparent grey;
+  color:white;
+
 
 }
 
 .dinner{
+  padding-left:0;
+  padding-right: 0;
   display: inline-block;
-  float: right;
- margin-right: 0;
- color: white;
-
+  float:left;
+  color: white;
 
 }
 .food{
-  width: 50%
+  width: 50%;
   float: left;
  background-color: white;
  padding-left: 10px;
@@ -109,8 +116,8 @@ color:white;
 }
 .food1{
   width: 50%;
+  margin-left: 5%;
   margin-top: 5%;
-  margin-left: 5%
 }
 .food2{
   width:50%;
@@ -119,7 +126,9 @@ color:white;
 
 }
 .text1{
+  margin-top: 5%;
   width: 50%;
+  margin-left: 20%;
   float:right;
   text-align-last: left;
   background-color: white;
@@ -129,17 +138,18 @@ color:white;
   float:right;
   margin-bottom: 5%;
 
+
 }
 .text2{
+  padding-right: 5%;
   width: 50%;
-  float:right;
+  float:left;
   background-color: white;
   text-align: right;
 }
 .row5{
   background-image: url(assets/backgrounds/foodsBg.jpg);
-  width:100%
- height:29%
+ height:500px;
 }
 .table1{
   width:80%;
@@ -178,7 +188,7 @@ width:262px;
  height:300px;
   width:80%;
   background-color: white;
-  border: 0.5px
+  border: 0.5px;
   float:left;
  margin-left: 10%;
  margin-right: 5%;
@@ -230,40 +240,41 @@ color: orangered;
 .row6{
   background-color:white;
   border-spacing: inherit;
-  border-color: grey;
-  border-image-slice: 1px;
-  width: 100%
+  border-radius: 3px;
+  border-color: orangered;
+  width: 100%;
+  display: inline-block;
 }
 .box3{
-  width: 50%;
+ display: inline-block;
   float: left;
   margin-top:30px;
   margin-bottom: 30px;
-  margin-right: 40px;
   margin-left: 40px;
   border-spacing: inherit:auto;
   border-color: black;
   text-align: center;
 }
 .aboutme{
+  display: inline-block;
   float: right;
-  width: 50%;
   margin-top:30px;
   margin-bottom: 30px;
-  margin-right: 60px;
-  margin-left: 0%;
+  margin-right: 40px;
   border-spacing: inherit:auto;
   border-color: black;
+  text-align: center;
   text-emphasis-position: right;
 
 }
 .row7{
-  width:100%;
+
   background-image: url(assets/backgrounds/subscribe.jpg);
   color: white;
   height: 250px;
   text-align: center;
-  text-emphasis-position: below;
+  text-align-last: center;
+  text-emphasis-position:center;
 }
 .form input{
   margin-right: -4px;
@@ -274,7 +285,6 @@ color: orangered;
 
 }
 .button{
-
   background-color: orangered;
   colour: white;
   padding-left: 10px;
@@ -284,12 +294,9 @@ color: orangered;
 
 .footer{
   text-align-last: center;
-  margin: auto;
-  width: 100%;
  height:280px;
  background-color:orangered;
- float:center;
- text-emphasis-position: below;
+
 color: white;}
 .footer img{
   position: center;
