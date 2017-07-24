@@ -167,25 +167,46 @@ padding-right: 0;
 }
 
 .Fastfood{
-
-margin-left: 5%
+margin-left: 0;
 display: inline-block;
 width:262px;
+transition: 0.5s;
+cursor: pointer;
 }
+.Fastfood:focus {
+border: 2px solid red;
+background-color: white;
+color: orangered;
+}
+
 .Drinks{
 display: inline-block;
 width:260px;
 }
+.Drinks:focus {
+border: 2px solid red;
+background-color: white;
+color: orangered;}
+
 .Chicken{
 display: inline-block;
 
 width:260px;
 }
+.Chicken:focus {
+border: 2px solid red;
+background-color: white;
+color: orangered;}
+
 .Rice{
 display: inline-block;
-
 width:262px;
 }
+.Rice:focus {
+border: 2px solid red;
+background-color: white;
+color: orangered;}
+
 
 .table2{
  height:300px;
@@ -226,9 +247,7 @@ color: orangered;
   padding-bottom: 10%
   margin right:5%
 }
-.hide-gallery{
-  display: none;
-}
+
 .show-gallery{
 	display: inline-block;
 	position: relative;
@@ -240,7 +259,7 @@ color: orangered;
 	border-right: 2px solid orangered;
 	border-bottom: 2px solid orangered;
 	border-left: 2px solid orangered;
-  
+
       }
 .clickable{
   cursor: pointer;
