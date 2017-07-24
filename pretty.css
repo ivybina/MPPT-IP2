@@ -1,11 +1,12 @@
 .container{
 text-decoration-style: solid;
-  width: 100%;
+width: auto;
   margin:0;
   margin-right: 0;
-  display: grid;
 }
 .icon {
+    top: 10px;
+    left: 20px;
     display: inline-block;
     cursor: pointer;
     position:absolute;
@@ -47,10 +48,12 @@ h4{
    color: white;
   text-align; center;
   text-align-last: center;
-
+height: auto;
+margin-bottom: 0;
 }
 .row2{
-  width:100%
+  width:100%;
+  margin-top: 0;
 }
 .ccc{
   float: left;
@@ -223,8 +226,10 @@ color: orangered;
   padding-bottom: 10%
   margin right:5%
 }
-.right-arrow {
-
+.hide-gallery{
+  display: none;
+}
+.show-gallery{
 	display: inline-block;
 	position: relative;
 	background: white;
@@ -235,8 +240,16 @@ color: orangered;
 	border-right: 2px solid orangered;
 	border-bottom: 2px solid orangered;
 	border-left: 2px solid orangered;
-}
+  
+      }
+.clickable{
+  cursor: pointer;
+  color:orangered;
 
+}
+.clickable:hover {
+        text-decoration: underline;
+      }
 .row6{
   background-color:white;
   border-spacing: inherit;
@@ -268,7 +281,6 @@ color: orangered;
 
 }
 .row7{
-
   background-image: url(assets/backgrounds/subscribe.jpg);
   color: white;
   height: 250px;

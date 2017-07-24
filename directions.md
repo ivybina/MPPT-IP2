@@ -1,4 +1,4 @@
-# Independent Project 2: Front End Assessment
+#Independent Project 2: Front End Assessment
 
 - Complete this task.
 - You are expected to use bootstrap framework for this task.
